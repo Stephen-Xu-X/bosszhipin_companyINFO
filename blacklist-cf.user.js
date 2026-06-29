@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BLP-Black list Panel
 // @namespace    blacklist-panel-local
-// @version      4.1.0
+// @version      4.1.2
 // @description  登录后自动查询黑名单，支持 BOSS 直聘与前程无忧
 // @author       Stephen-Xu-X
 // @license      GPLv3
