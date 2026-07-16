@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BOSS直聘脚本
 // @namespace    https://github.com/Stephen-Xu-X/bosszhipin_companyINFO
-// @version      2.0.0
+// @version      2.0.1
 // @description  公司信息查询与岗位信息辅助显示
 // @author       Stephen-Xu-X
 // @license      GPLv3
@@ -17,8 +17,8 @@
 
 // @require      https://unpkg.com/jquery
 
-// @updateURL    https://raw.githubusercontent.com/Stephen-Xu-X/Boss-51job-blacklist/main/scripts/blacklist-combined.js
-// @downloadURL  https://raw.githubusercontent.com/Stephen-Xu-X/Boss-51job-blacklist/main/scripts/blacklist-combined.js
+// @updateURL    https://raw.githubusercontent.com/Stephen-Xu-X/bosszhipin_companyINFO/main/scripts/blacklist-combined.js
+// @downloadURL  https://raw.githubusercontent.com/Stephen-Xu-X/bosszhipin_companyINFO/main/scripts/blacklist-combined.js
 
 // ==/UserScript==
 
