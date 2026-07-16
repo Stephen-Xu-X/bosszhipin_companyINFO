@@ -39,12 +39,16 @@
 
 ## 更新日志
 
+### 2.0.1
+
+- 接入 GitHub Raw 自动更新地址。
+- 补充 Raw 一键安装入口。
+
 ### 2.0.0
 
 - 重构 BOSS 页头控制：新增 `Power On/Off` 开关和 GitHub 仓库入口。
 - 修复反复切换开关后重复插入查询图标的问题。
 - 移除油猴扩展菜单命令，统一脚本名称和启动文案。
-- 自动更新 Raw 链接将在首个正式版本发布后补充。
 
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
@@ -66,11 +70,11 @@
 ## 安装
 
 1. 在浏览器安装 [Tampermonkey](https://www.tampermonkey.net/) 或兼容的用户脚本管理器。
-2. 打开 [scripts/blacklist-combined.js](scripts/blacklist-combined.js)，复制全部内容。
-3. 在脚本管理器中新建脚本，粘贴并保存。
+2. [点击安装脚本](https://raw.githubusercontent.com/Stephen-Xu-X/bosszhipin_companyINFO/main/scripts/blacklist-combined.js)。
+3. 若脚本管理器未自动打开安装页，打开 [scripts/blacklist-combined.js](scripts/blacklist-combined.js)，复制全部内容后新建脚本并保存。
 4. 打开 BOSS 直聘或前程无忧页面即可运行。
 
-> 正式发布后会补充一键安装和自动更新链接。
+> 脚本管理器会通过 GitHub Raw 检查更新；每次发布新版本时会递增脚本头部的 `@version`。
 
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
