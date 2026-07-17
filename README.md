@@ -39,6 +39,11 @@
 
 ## 更新日志
 
+### 2.0.2
+
+- 正式发布文件改为 `.user.js`，支持油猴一键安装。
+- 自动更新地址改为完整的 `refs/heads/main` GitHub Raw 引用。
+
 ### 2.0.1
 
 - 接入 GitHub Raw 自动更新地址。
@@ -70,8 +75,8 @@
 ## 安装
 
 1. 在浏览器安装 [Tampermonkey](https://www.tampermonkey.net/) 或兼容的用户脚本管理器。
-2. [点击安装脚本](https://raw.githubusercontent.com/Stephen-Xu-X/bosszhipin_companyINFO/main/scripts/blacklist-combined.js)。
-3. 若脚本管理器未自动打开安装页，打开 [scripts/blacklist-combined.js](scripts/blacklist-combined.js)，复制全部内容后新建脚本并保存。
+2. [点击安装脚本](https://raw.githubusercontent.com/Stephen-Xu-X/bosszhipin_companyINFO/refs/heads/main/scripts/bosszhipin-company-info.user.js)。
+3. 若脚本管理器未自动打开安装页，打开 [scripts/bosszhipin-company-info.user.js](scripts/bosszhipin-company-info.user.js)，复制全部内容后新建脚本并保存。
 4. 打开 BOSS 直聘或前程无忧页面即可运行。
 
 > 脚本管理器会通过 GitHub Raw 检查更新；每次发布新版本时会递增脚本头部的 `@version`。
